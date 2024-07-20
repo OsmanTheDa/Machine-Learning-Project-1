@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # TfidfVectorizer - This is used to convert text data into numerical values
 from sklearn.metrics.pairwise import cosine_similarity
 import os
-os.chdir('C:\\Users\\Yousuf\\OneDrive\\Desktop\PRJ Movie Recommendation System')
+os.chdir('C:\\Users\\KEEP YOUR FILE LOCATION')
 movies_data =pd.read_csv('movies.csv')
 movies_data.head()
 display (movies_data.shape)
